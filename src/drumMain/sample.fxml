@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.text.*?>
+
+<VBox prefHeight="786.0" prefWidth="665.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="drumMain.Controller">
+    <children>
+        <MenuBar prefHeight="43.0" prefWidth="758.0" VBox.vgrow="NEVER">
+            <menus>
+                <Menu mnemonicParsing="false" text="File">
+                    <items>
+                        <MenuItem mnemonicParsing="false" text="New" />
+                        <MenuItem mnemonicParsing="false" text="Open…" />
+                        <Menu mnemonicParsing="false" text="Open Recent" />
+                        <SeparatorMenuItem mnemonicParsing="false" />
+                        <MenuItem mnemonicParsing="false" text="Close" />
+                        <MenuItem mnemonicParsing="false" text="Save" />
+                        <MenuItem mnemonicParsing="false" text="Save As…" />
+                        <MenuItem mnemonicParsing="false" text="Revert" />
+                        <SeparatorMenuItem mnemonicParsing="false" />
+                        <MenuItem mnemonicParsing="false" text="Preferences…" />
+                        <SeparatorMenuItem mnemonicParsing="false" />
+                        <MenuItem mnemonicParsing="false" text="Quit" />
+                    </items>
+                </Menu>
+                <Menu mnemonicParsing="false" text="Edit">
+                    <items>
+                        <MenuItem mnemonicParsing="false" text="Undo" />
+                        <MenuItem mnemonicParsing="false" text="Redo" />
+                        <SeparatorMenuItem mnemonicParsing="false" />
+                        <MenuItem mnemonicParsing="false" text="Cut" />
+                        <MenuItem mnemonicParsing="false" text="Copy" />
+                        <MenuItem mnemonicParsing="false" text="Paste" />
+                        <MenuItem mnemonicParsing="false" text="Delete" />
+                        <SeparatorMenuItem mnemonicParsing="false" />
+                        <MenuItem mnemonicParsing="false" text="Select All" />
+                        <MenuItem mnemonicParsing="false" text="Unselect All" />
+                    </items>
+                </Menu>
+                <Menu mnemonicParsing="false" text="Help">
+                    <items>
+                        <MenuItem mnemonicParsing="false" text="About MyHelloApp" />
+                    </items>
+                </Menu>
+            </menus>
+        </MenuBar>
+        <AnchorPane maxHeight="-1.0" maxWidth="-1.0" prefHeight="735.0" prefWidth="744.0" VBox.vgrow="ALWAYS">
+            <children>
+                <Button layoutX="14.0" layoutY="102.0" mnemonicParsing="false" onAction="#test" prefHeight="150.0" prefWidth="150.0" text="Kick" />
+                <Button layoutX="14.0" layoutY="264.0" mnemonicParsing="false" prefHeight="150.0" prefWidth="150.0" text="Kick" />
+                <Button layoutX="179.0" layoutY="264.0" mnemonicParsing="false" prefHeight="150.0" prefWidth="150.0" text="Kick" />
+                <Button layoutX="179.0" layoutY="102.0" mnemonicParsing="false" prefHeight="150.0" prefWidth="150.0" text="Kick" />
+                <Button layoutX="506.0" layoutY="102.0" mnemonicParsing="false" prefHeight="150.0" prefWidth="150.0" text="Kick" />
+                <Button layoutX="341.0" layoutY="102.0" mnemonicParsing="false" prefHeight="150.0" prefWidth="150.0" text="Kick" />
+                <Button layoutX="506.0" layoutY="264.0" mnemonicParsing="false" prefHeight="150.0" prefWidth="150.0" text="Kick" />
+                <Button layoutX="341.0" layoutY="264.0" mnemonicParsing="false" prefHeight="150.0" prefWidth="150.0" text="Kick" />
+                <Button layoutX="341.0" layoutY="584.0" mnemonicParsing="false" prefHeight="150.0" prefWidth="150.0" text="Kick" />
+                <Button layoutX="506.0" layoutY="584.0" mnemonicParsing="false" prefHeight="150.0" prefWidth="150.0" text="Kick" />
+                <Button layoutX="341.0" layoutY="422.0" mnemonicParsing="false" prefHeight="150.0" prefWidth="150.0" text="Kick" />
+                <Button layoutX="506.0" layoutY="422.0" mnemonicParsing="false" prefHeight="150.0" prefWidth="150.0" text="Kick" />
+                <Button layoutX="179.0" layoutY="422.0" mnemonicParsing="false" prefHeight="150.0" prefWidth="150.0" text="Kick" />
+                <Button layoutX="14.0" layoutY="422.0" mnemonicParsing="false" prefHeight="150.0" prefWidth="150.0" text="Kick" />
+                <Button layoutX="179.0" layoutY="584.0" mnemonicParsing="false" prefHeight="150.0" prefWidth="150.0" text="Kick" />
+                <Button layoutX="14.0" layoutY="584.0" mnemonicParsing="false" prefHeight="150.0" prefWidth="150.0" text="Kick" />
+            </children>
+        </AnchorPane>
+    </children>
+</VBox>

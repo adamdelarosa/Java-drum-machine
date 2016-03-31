@@ -12,7 +12,8 @@ public class Main extends Application {
     public void start(Stage primaryStage) throws Exception{
         Parent root = FXMLLoader.load(getClass().getResource("sample.fxml"));
         primaryStage.setTitle("JDrum");
-        primaryStage.setScene(new Scene(root, 665, 786));
+        primaryStage.setResizable(false);
+        primaryStage.setScene(new Scene(root, 665, 750));
         primaryStage.show();
     }
 

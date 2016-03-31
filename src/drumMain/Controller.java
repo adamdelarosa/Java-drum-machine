@@ -7,6 +7,7 @@ import java.io.InputStream;
 
 public class Controller {
 
+
     public void padOne(){
         try {
             InputStream is = ClassLoader.getSystemResourceAsStream("Samples/808/kick1.wav");

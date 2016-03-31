@@ -1,11 +1,19 @@
 package drumMain;
 
+import javafx.application.Application;
+import javafx.stage.Stage;
+
 import javax.sound.sampled.AudioInputStream;
 import javax.sound.sampled.AudioSystem;
 import javax.sound.sampled.Clip;
+import java.awt.*;
+import java.awt.event.KeyAdapter;
+import java.awt.event.KeyEvent;
+import java.awt.event.KeyListener;
 import java.io.InputStream;
 
-public class Controller {
+public class Controller  {
+
 
 
     public void padOne(){
@@ -172,7 +180,7 @@ public class Controller {
             e.printStackTrace();
         }
     }
-    public void padSixteen(){
+    public void padSixteen() {
         try {
             InputStream is = ClassLoader.getSystemResourceAsStream("Samples/808/tom2.wav");
             AudioInputStream audioIn = AudioSystem.getAudioInputStream(is);
@@ -183,4 +191,5 @@ public class Controller {
             e.printStackTrace();
         }
     }
+
 }

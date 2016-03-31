@@ -50,22 +50,22 @@
         </MenuBar>
         <AnchorPane maxHeight="-1.0" maxWidth="-1.0" prefHeight="735.0" prefWidth="744.0" VBox.vgrow="ALWAYS">
             <children>
-                <Button layoutX="14.0" layoutY="102.0" mnemonicParsing="false" onAction="#test" prefHeight="150.0" prefWidth="150.0" text="Kick" />
-                <Button layoutX="14.0" layoutY="264.0" mnemonicParsing="false" prefHeight="150.0" prefWidth="150.0" text="Kick" />
-                <Button layoutX="179.0" layoutY="264.0" mnemonicParsing="false" prefHeight="150.0" prefWidth="150.0" text="Kick" />
-                <Button layoutX="179.0" layoutY="102.0" mnemonicParsing="false" prefHeight="150.0" prefWidth="150.0" text="Kick" />
-                <Button layoutX="506.0" layoutY="102.0" mnemonicParsing="false" prefHeight="150.0" prefWidth="150.0" text="Kick" />
-                <Button layoutX="341.0" layoutY="102.0" mnemonicParsing="false" prefHeight="150.0" prefWidth="150.0" text="Kick" />
-                <Button layoutX="506.0" layoutY="264.0" mnemonicParsing="false" prefHeight="150.0" prefWidth="150.0" text="Kick" />
-                <Button layoutX="341.0" layoutY="264.0" mnemonicParsing="false" prefHeight="150.0" prefWidth="150.0" text="Kick" />
-                <Button layoutX="341.0" layoutY="584.0" mnemonicParsing="false" prefHeight="150.0" prefWidth="150.0" text="Kick" />
-                <Button layoutX="506.0" layoutY="584.0" mnemonicParsing="false" prefHeight="150.0" prefWidth="150.0" text="Kick" />
-                <Button layoutX="341.0" layoutY="422.0" mnemonicParsing="false" prefHeight="150.0" prefWidth="150.0" text="Kick" />
-                <Button layoutX="506.0" layoutY="422.0" mnemonicParsing="false" prefHeight="150.0" prefWidth="150.0" text="Kick" />
-                <Button layoutX="179.0" layoutY="422.0" mnemonicParsing="false" prefHeight="150.0" prefWidth="150.0" text="Kick" />
-                <Button layoutX="14.0" layoutY="422.0" mnemonicParsing="false" prefHeight="150.0" prefWidth="150.0" text="Kick" />
-                <Button layoutX="179.0" layoutY="584.0" mnemonicParsing="false" prefHeight="150.0" prefWidth="150.0" text="Kick" />
-                <Button layoutX="14.0" layoutY="584.0" mnemonicParsing="false" prefHeight="150.0" prefWidth="150.0" text="Kick" />
+                <Button layoutX="14.0" layoutY="102.0" mnemonicParsing="false" onAction="#padThirteen" prefHeight="150.0" prefWidth="150.0" />
+                <Button layoutX="179.0" layoutY="102.0" mnemonicParsing="false" onAction="#padFourteen" prefHeight="150.0" prefWidth="150.0" />
+                <Button layoutX="341.0" layoutY="102.0" mnemonicParsing="false" onAction="#padFifteen" prefHeight="150.0" prefWidth="150.0" />
+                <Button layoutX="506.0" layoutY="102.0" mnemonicParsing="false" onAction="#padSixteen" prefHeight="150.0" prefWidth="150.0" />
+                <Button layoutX="14.0" layoutY="264.0" mnemonicParsing="false" onAction="#padNine" prefHeight="150.0" prefWidth="150.0" />
+                <Button layoutX="179.0" layoutY="264.0" mnemonicParsing="false" onAction="#padTen" prefHeight="150.0" prefWidth="150.0" />
+                <Button layoutX="341.0" layoutY="264.0" mnemonicParsing="false" onAction="#padEleven" prefHeight="150.0" prefWidth="150.0" />
+                <Button layoutX="506.0" layoutY="264.0" mnemonicParsing="false" onAction="#padTwelve" prefHeight="150.0" prefWidth="150.0" />
+                <Button layoutX="14.0" layoutY="422.0" mnemonicParsing="false" onAction="#padFive" prefHeight="150.0" prefWidth="150.0" />
+                <Button layoutX="179.0" layoutY="422.0" mnemonicParsing="false" onAction="#padSix" prefHeight="150.0" prefWidth="150.0" />
+                <Button layoutX="341.0" layoutY="422.0" mnemonicParsing="false" onAction="#padSeven" prefHeight="150.0" prefWidth="150.0" />
+                <Button layoutX="506.0" layoutY="422.0" mnemonicParsing="false" onAction="#padEight" prefHeight="150.0" prefWidth="150.0" />
+                <Button layoutX="14.0" layoutY="584.0" mnemonicParsing="false" onAction="#padOne" prefHeight="150.0" prefWidth="150.0" />
+                <Button layoutX="179.0" layoutY="584.0" mnemonicParsing="false" onAction="#padTwo" prefHeight="150.0" prefWidth="150.0" />
+                <Button layoutX="341.0" layoutY="584.0" mnemonicParsing="false" onAction="#padThree" prefHeight="150.0" prefWidth="150.0" />
+                <Button layoutX="506.0" layoutY="584.0" mnemonicParsing="false" onAction="#padFour" prefHeight="150.0" prefWidth="150.0" />
             </children>
         </AnchorPane>
     </children>

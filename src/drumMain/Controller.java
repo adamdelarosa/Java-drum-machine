@@ -1,20 +1,11 @@
 package drumMain;
 
-import javafx.application.Application;
-import javafx.stage.Stage;
-
 import javax.sound.sampled.AudioInputStream;
 import javax.sound.sampled.AudioSystem;
 import javax.sound.sampled.Clip;
-import java.awt.*;
-import java.awt.event.KeyAdapter;
-import java.awt.event.KeyEvent;
-import java.awt.event.KeyListener;
 import java.io.InputStream;
 
 public class Controller  {
-
-
 
     public void padOne(){
         try {

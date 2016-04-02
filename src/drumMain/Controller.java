@@ -1,11 +1,44 @@
 package drumMain;
 
+import javafx.application.Application;
+import javafx.fxml.FXMLLoader;
+import javafx.scene.Group;
+import javafx.scene.Parent;
+import javafx.scene.Scene;
+import javafx.stage.Stage;
+
 import javax.sound.sampled.AudioInputStream;
 import javax.sound.sampled.AudioSystem;
 import javax.sound.sampled.Clip;
+import java.awt.event.KeyEvent;
+import java.awt.event.KeyListener;
 import java.io.InputStream;
 
-public class Controller  {
+public class Controller extends Application implements KeyListener{
+
+    public static void main(String args[]){
+        launch(args);
+    }
+
+    @Override
+    public void start(Stage stage) throws Exception{
+        Parent root = FXMLLoader.load(getClass().getResource("sample.fxml"));
+        Scene scene = new Scene(root, 665, 750);
+        stage.setTitle("JDrum");
+        stage.setResizable(false);
+        stage.show();
+        stage.focusedProperty();
+        scene.setOnKeyPressed(event -> {
+            switch (event.getCode()){
+                case UP:
+                    padOne();
+            }
+        });
+        stage.setScene(scene);
+    }
+
+
+
 
 
     public void padOne(){
@@ -184,4 +217,27 @@ public class Controller  {
         }
     }
 
+
+    @Override
+    public void keyTyped(KeyEvent e) {
+        if (e.getKeyCode() == KeyEvent.VK_RIGHT) {
+            System.out.println("Right key typed");
+        }
+    }
+
+    @Override
+    public void keyPressed(KeyEvent e) {
+        if (e.getKeyCode() == KeyEvent.VK_RIGHT) {
+            System.out.println("Right key typed");
+        }
+
+    }
+
+    @Override
+    public void keyReleased(KeyEvent e) {
+        if (e.getKeyCode() == KeyEvent.VK_RIGHT) {
+            System.out.println("Right key typed");
+        }
+
+    }
 }

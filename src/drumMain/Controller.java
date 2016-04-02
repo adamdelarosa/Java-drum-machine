@@ -30,8 +30,71 @@ public class Controller extends Application implements KeyListener{
         stage.focusedProperty();
         scene.setOnKeyPressed(event -> {
             switch (event.getCode()){
-                case UP:
+
+                case Z:
                     padOne();
+                    break;
+
+                case X:
+                    padTwo();
+                    break;
+
+                case C:
+                    padThree();
+                    break;
+
+                case V:
+                    padFour();
+                    break;
+
+                case A:
+                    padFive();
+                    break;
+
+                case S:
+                    padSix();
+                    break;
+
+                case D:
+                    padSeven();
+                    break;
+
+                case F:
+                    padEight();
+                    break;
+
+                case Q:
+                    padNine();
+                    break;
+
+                case W:
+                    padTen();
+                    break;
+
+                case E:
+                    padEleven();
+                    break;
+
+                case R:
+                    padTwelve();
+                    break;
+
+                case DIGIT1:
+                    padThirteen();
+                    break;
+
+                case DIGIT2:
+                    padFourteen();
+                    break;
+
+                case DIGIT3:
+                    padFifteen();
+                    break;
+
+                case DIGIT4:
+                    padSixteen();
+                    break;
+
             }
         });
         stage.setScene(scene);

@@ -5,8 +5,6 @@ import javafx.fxml.FXMLLoader;
 import javafx.scene.Parent;
 import javafx.scene.Scene;
 import javafx.stage.Stage;
-import java.awt.event.KeyEvent;
-
 
 public class Main extends Application {
 
@@ -19,31 +17,12 @@ public class Main extends Application {
         primaryStage.show();
 
 
+
     }
 
 
     public static void main(String[] args) {
         launch(args);
-    }
-    public void keyPressed(KeyEvent e) {
-
-        int key = e.getKeyCode();
-
-        if (key == KeyEvent.VK_LEFT) {
-            System.out.println("s");
-        }
-
-        if (key == KeyEvent.VK_RIGHT) {
-            System.out.println("s");
-        }
-
-        if (key == KeyEvent.VK_UP) {
-            System.out.println("s");
-        }
-
-        if (key == KeyEvent.VK_DOWN) {
-            System.out.println("s");
-        }
     }
 
 }

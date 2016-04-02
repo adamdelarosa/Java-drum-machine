@@ -25,5 +25,25 @@ public class Main extends Application {
     public static void main(String[] args) {
         launch(args);
     }
+    public void keyPressed(KeyEvent e) {
+
+        int key = e.getKeyCode();
+
+        if (key == KeyEvent.VK_LEFT) {
+            System.out.println("s");
+        }
+
+        if (key == KeyEvent.VK_RIGHT) {
+            System.out.println("s");
+        }
+
+        if (key == KeyEvent.VK_UP) {
+            System.out.println("s");
+        }
+
+        if (key == KeyEvent.VK_DOWN) {
+            System.out.println("s");
+        }
+    }
 
 }

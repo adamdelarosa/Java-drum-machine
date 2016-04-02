@@ -7,26 +7,74 @@
 <?import javafx.scene.paint.*?>
 <?import javafx.scene.text.*?>
 
-<VBox prefHeight="748.0" prefWidth="665.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="drumMain.Controller">
+<VBox prefHeight="732.0" prefWidth="646.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="drumMain.Controller">
     <children>
-        <AnchorPane maxHeight="-1.0" maxWidth="-1.0" prefHeight="735.0" prefWidth="744.0" VBox.vgrow="ALWAYS">
+        <AnchorPane maxHeight="-1.0" maxWidth="-1.0" prefHeight="732.0" prefWidth="646.0" VBox.vgrow="ALWAYS">
             <children>
-                <Button layoutX="14.0" layoutY="102.0" mnemonicParsing="false" onAction="#padThirteen" prefHeight="150.0" prefWidth="150.0" />
-                <Button layoutX="179.0" layoutY="102.0" mnemonicParsing="false" onAction="#padFourteen" prefHeight="150.0" prefWidth="150.0" />
-                <Button layoutX="341.0" layoutY="102.0" mnemonicParsing="false" onAction="#padFifteen" prefHeight="150.0" prefWidth="150.0" />
-                <Button layoutX="506.0" layoutY="102.0" mnemonicParsing="false" onAction="#padSixteen" prefHeight="150.0" prefWidth="150.0" />
-                <Button layoutX="14.0" layoutY="264.0" mnemonicParsing="false" onAction="#padNine" prefHeight="150.0" prefWidth="150.0" />
-                <Button layoutX="179.0" layoutY="264.0" mnemonicParsing="false" onAction="#padTen" prefHeight="150.0" prefWidth="150.0" />
-                <Button layoutX="341.0" layoutY="264.0" mnemonicParsing="false" onAction="#padEleven" prefHeight="150.0" prefWidth="150.0" />
-                <Button layoutX="506.0" layoutY="264.0" mnemonicParsing="false" onAction="#padTwelve" prefHeight="150.0" prefWidth="150.0" />
-                <Button layoutX="14.0" layoutY="422.0" mnemonicParsing="false" onAction="#padFive" prefHeight="150.0" prefWidth="150.0" />
-                <Button layoutX="179.0" layoutY="422.0" mnemonicParsing="false" onAction="#padSix" prefHeight="150.0" prefWidth="150.0" />
-                <Button layoutX="341.0" layoutY="422.0" mnemonicParsing="false" onAction="#padSeven" prefHeight="150.0" prefWidth="150.0" />
-                <Button layoutX="506.0" layoutY="422.0" mnemonicParsing="false" onAction="#padEight" prefHeight="150.0" prefWidth="150.0" />
-                <Button layoutX="14.0" layoutY="584.0" mnemonicParsing="false" onAction="#padOne" prefHeight="150.0" prefWidth="150.0" />
-                <Button layoutX="179.0" layoutY="584.0" mnemonicParsing="false" onAction="#padTwo" prefHeight="150.0" prefWidth="150.0" />
-                <Button layoutX="341.0" layoutY="584.0" mnemonicParsing="false" onAction="#padThree" prefHeight="150.0" prefWidth="150.0" />
-                <Button layoutX="506.0" layoutY="584.0" mnemonicParsing="false" onAction="#padFour" prefHeight="150.0" prefWidth="150.0" />
+                <Button fx:id="buttonOne" layoutX="8.0" layoutY="95.0" mnemonicParsing="false" onAction="#padThirteen" prefHeight="150.0" prefWidth="150.0" text="1">
+               <font>
+                  <Font size="60.0" />
+               </font></Button>
+                <Button layoutX="168.0" layoutY="95.0" mnemonicParsing="false" onAction="#padFourteen" prefHeight="150.0" prefWidth="150.0" text="2">
+               <font>
+                  <Font size="60.0" />
+               </font></Button>
+                <Button layoutX="328.0" layoutY="95.0" mnemonicParsing="false" onAction="#padFifteen" prefHeight="150.0" prefWidth="150.0" text="3">
+               <font>
+                  <Font size="60.0" />
+               </font></Button>
+                <Button layoutX="488.0" layoutY="95.0" mnemonicParsing="false" onAction="#padSixteen" prefHeight="150.0" prefWidth="150.0" text="4">
+               <font>
+                  <Font size="60.0" />
+               </font></Button>
+                <Button layoutX="7.0" layoutY="255.0" mnemonicParsing="false" onAction="#padNine" prefHeight="150.0" prefWidth="150.0" text="Q">
+               <font>
+                  <Font size="60.0" />
+               </font></Button>
+                <Button layoutX="168.0" layoutY="255.0" mnemonicParsing="false" onAction="#padTen" prefHeight="150.0" prefWidth="150.0" text="W">
+               <font>
+                  <Font size="60.0" />
+               </font></Button>
+                <Button layoutX="328.0" layoutY="255.0" mnemonicParsing="false" onAction="#padEleven" prefHeight="150.0" prefWidth="150.0" text="E">
+               <font>
+                  <Font size="60.0" />
+               </font></Button>
+                <Button layoutX="488.0" layoutY="255.0" mnemonicParsing="false" onAction="#padTwelve" prefHeight="150.0" prefWidth="150.0" text="R">
+               <font>
+                  <Font size="60.0" />
+               </font></Button>
+                <Button layoutX="7.0" layoutY="415.0" mnemonicParsing="false" onAction="#padFive" prefHeight="150.0" prefWidth="150.0" text="A">
+               <font>
+                  <Font size="60.0" />
+               </font></Button>
+                <Button layoutX="168.0" layoutY="415.0" mnemonicParsing="false" onAction="#padSix" prefHeight="150.0" prefWidth="150.0" text="S">
+               <font>
+                  <Font size="60.0" />
+               </font></Button>
+                <Button layoutX="328.0" layoutY="415.0" mnemonicParsing="false" onAction="#padSeven" prefHeight="150.0" prefWidth="150.0" text="D">
+               <font>
+                  <Font size="60.0" />
+               </font></Button>
+                <Button layoutX="488.0" layoutY="415.0" mnemonicParsing="false" onAction="#padEight" prefHeight="150.0" prefWidth="150.0" text="F">
+               <font>
+                  <Font size="60.0" />
+               </font></Button>
+                <Button layoutX="7.0" layoutY="575.0" mnemonicParsing="false" onAction="#padOne" prefHeight="150.0" prefWidth="150.0" text="Z">
+               <font>
+                  <Font size="60.0" />
+               </font></Button>
+                <Button layoutX="168.0" layoutY="575.0" mnemonicParsing="false" onAction="#padTwo" prefHeight="150.0" prefWidth="150.0" text="X">
+               <font>
+                  <Font size="60.0" />
+               </font></Button>
+                <Button layoutX="328.0" layoutY="575.0" mnemonicParsing="false" onAction="#padThree" prefHeight="150.0" prefWidth="150.0" text="C">
+               <font>
+                  <Font size="60.0" />
+               </font></Button>
+                <Button layoutX="488.0" layoutY="575.0" mnemonicParsing="false" onAction="#padFour" prefHeight="150.0" prefWidth="150.0" text="V">
+               <font>
+                  <Font size="60.0" />
+               </font></Button>
             <Text layoutX="212.0" layoutY="77.0" strokeType="OUTSIDE" strokeWidth="0.0" text="DRUMZ!" wrappingWidth="257.98779296875">
                <font>
                   <Font size="65.0" />

@@ -1,10 +1,13 @@
 package drumMain;
 
 import javafx.application.Application;
+import javafx.application.Platform;
+import javafx.fxml.FXML;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Group;
 import javafx.scene.Parent;
 import javafx.scene.Scene;
+import javafx.scene.control.Button;
 import javafx.stage.Stage;
 
 import javax.sound.sampled.AudioInputStream;
@@ -16,6 +19,9 @@ import java.io.InputStream;
 
 public class Controller extends Application implements KeyListener{
 
+    @FXML
+    public Button buttonOne;
+
     public static void main(String args[]){
         launch(args);
     }
@@ -23,11 +29,14 @@ public class Controller extends Application implements KeyListener{
     @Override
     public void start(Stage stage) throws Exception{
         Parent root = FXMLLoader.load(getClass().getResource("sample.fxml"));
-        Scene scene = new Scene(root, 665, 750);
+        Scene scene = new Scene(root, 646, 732);
         stage.setTitle("JDrum");
         stage.setResizable(false);
         stage.show();
         stage.focusedProperty();
+
+
+
         scene.setOnKeyPressed(event -> {
             switch (event.getCode()){
 
@@ -99,10 +108,6 @@ public class Controller extends Application implements KeyListener{
         });
         stage.setScene(scene);
     }
-
-
-
-
 
     public void padOne(){
         try {

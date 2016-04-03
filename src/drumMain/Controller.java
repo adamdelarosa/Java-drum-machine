@@ -8,6 +8,7 @@ import javafx.scene.Group;
 import javafx.scene.Parent;
 import javafx.scene.Scene;
 import javafx.scene.control.Button;
+import javafx.scene.input.KeyCode;
 import javafx.stage.Stage;
 
 import javax.sound.sampled.AudioInputStream;
@@ -16,11 +17,17 @@ import javax.sound.sampled.Clip;
 import java.awt.event.KeyEvent;
 import java.awt.event.KeyListener;
 import java.io.InputStream;
+import java.util.HashMap;
+import java.util.Map;
+
+import javafx.scene.control.Button;
 
 public class Controller extends Application implements KeyListener{
 
     @FXML
     public Button buttonOne;
+    public Button buttonTwo;
+
 
     public static void main(String args[]){
         launch(args);
@@ -42,6 +49,7 @@ public class Controller extends Application implements KeyListener{
 
                 case Z:
                     padOne();
+                    buttonOne.
                     break;
 
                 case X:

@@ -49,13 +49,10 @@ public class Controller extends Application implements KeyListener{
 
                 case Z:
                     padOne();
-                    buttonOne.
                     break;
-
                 case X:
                     padTwo();
                     break;
-
                 case C:
                     padThree();
                     break;

@@ -59,31 +59,24 @@ public class Controller extends Application implements KeyListener{
                 case V:
                     padFour();
                     break;
-
                 case A:
                     padFive();
                     break;
-
                 case S:
                     padSix();
                     break;
-
                 case D:
                     padSeven();
                     break;
-
                 case F:
                     padEight();
                     break;
-
                 case Q:
                     padNine();
                     break;
-
                 case W:
                     padTen();
                     break;
-
                 case E:
                     padEleven();
                     break;

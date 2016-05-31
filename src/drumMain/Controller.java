@@ -56,7 +56,6 @@ public class Controller extends Application implements KeyListener{
                 case C:
                     padThree();
                     break;
-
                 case V:
                     padFour();
                     break;

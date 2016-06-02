@@ -1,26 +1,20 @@
 package drumMain;
 
 import javafx.application.Application;
-import javafx.application.Platform;
 import javafx.fxml.FXML;
 import javafx.fxml.FXMLLoader;
-import javafx.scene.Group;
 import javafx.scene.Parent;
 import javafx.scene.Scene;
 import javafx.scene.control.Button;
-import javafx.scene.input.KeyCode;
 import javafx.stage.Stage;
-
 import javax.sound.sampled.AudioInputStream;
 import javax.sound.sampled.AudioSystem;
 import javax.sound.sampled.Clip;
 import java.awt.event.KeyEvent;
 import java.awt.event.KeyListener;
 import java.io.InputStream;
-import java.util.HashMap;
-import java.util.Map;
 
-import javafx.scene.control.Button;
+//Drums
 
 public class Controller extends Application implements KeyListener{
 

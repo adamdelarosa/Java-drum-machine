@@ -36,8 +36,6 @@ public class Controller extends Application implements KeyListener{
         stage.show();
         stage.focusedProperty();
 
-
-
         scene.setOnKeyPressed(event -> {
             switch (event.getCode()){
 

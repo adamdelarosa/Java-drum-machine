@@ -22,7 +22,6 @@ public class Controller extends Application implements KeyListener{
     public Button buttonOne;
     public Button buttonTwo;
 
-
     public static void main(String args[]){
         launch(args);
     }
